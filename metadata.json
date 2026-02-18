@@ -1,0 +1,5 @@
+{
+  "name": "PolyPress - 3D model and point cloud viewer and compressor",
+  "description": "PolyPress is a web-based 3D model and point cloud viewer and compressor for GLB, GLTF, OBJ, PCD, PLY, and XYZ.",
+  "requestFramePermissions": []
+}

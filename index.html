@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyPress - 3D model and point cloud viewer and compressor</title>
+    <meta name="description" content="PolyPress is a fast web-based 3D model and point cloud viewer and compressor. Open, inspect, and optimize GLB, GLTF, OBJ, PCD, PLY, and XYZ files directly in your browser." />
+    <meta name="keywords" content="PolyPress, 3D model viewer, point cloud viewer, 3D compressor, model compression, GLB viewer, GLTF viewer, OBJ viewer, PCD viewer, PLY viewer, XYZ viewer, online 3D viewer, web 3D, three.js viewer, geometry analysis, mesh optimization, Draco compression, KTX2 compression" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="PolyPress" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PolyPress - 3D model and point cloud viewer and compressor" />
+    <meta property="og:description" content="Open and analyze GLB, GLTF, OBJ, PCD, PLY, and XYZ files. View geometry details and export optimized GLB files with optional compression." />
+    <meta property="og:site_name" content="PolyPress" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PolyPress - 3D model and point cloud viewer and compressor" />
+    <meta name="twitter:description" content="Web-based 3D model and point cloud viewer and compressor for GLB, GLTF, OBJ, PCD, PLY, and XYZ." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      body {
+        background-color: #0f172a;
+        color: #f8fafc;
+        margin: 0;
+        overflow: hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1e293b;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #475569;
+        border-radius: 10px;
+      }
+      canvas {
+        touch-action: none;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0",
+    "three": "https://esm.sh/three@^0.182.0",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+    "three/": "https://esm.sh/three@^0.182.0/",
+    "meshoptimizer": "https://esm.sh/meshoptimizer@^0.21.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
