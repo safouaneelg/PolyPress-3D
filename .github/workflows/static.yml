@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npx vite build --base "/${{ github.event.repository.name }}/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
